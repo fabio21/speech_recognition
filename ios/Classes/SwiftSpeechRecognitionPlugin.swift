@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 import Speech
 
-@available(iOS 10.0, *)
+@available(iOS 11.0, *)
 public class SwiftSpeechRecognitionPlugin: NSObject, FlutterPlugin, SFSpeechRecognizerDelegate {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "speech_recognition", binaryMessenger: registrar.messenger())
